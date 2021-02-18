@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbajs GSAP</title>
+    <link rel="stylesheet" href="./SCSS/style.css">
+</head>
+
+<body data-barba="wrapper">
+
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main data-barba="container" data-barba-namespace="home">
+            <div class="left">
+                <h1>An Ongoing Experience</h1>
+                <a href="./services.html" class="cta">Take Me Service</a>
+            </div>
+            <img src="./img/houzlook.jpg" alt="Interior">
+        </main>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+</body>
+
+</html>
